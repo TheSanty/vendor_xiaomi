@@ -17,12 +17,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tissot/proprietary/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13880_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/etc/camera/ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov5675_qtech_chromatix.xml \
     vendor/xiaomi/tissot/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/tissot/proprietary/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gf_fingerprint.default.so \
-    vendor/xiaomi/tissot/proprietary/lib64/libgf_algo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgf_algo.so \
-    vendor/xiaomi/tissot/proprietary/lib64/libgf_ca.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgf_ca.so \
-    vendor/xiaomi/tissot/proprietary/lib64/libgf_hal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgf_hal.so \
-    vendor/xiaomi/tissot/proprietary/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgoodixfingerprintd_binder.so \
-    vendor/xiaomi/tissot/proprietary/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoftkeymaster.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/xiaomi/tissot/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
     vendor/xiaomi/tissot/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/tissot/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/tissot/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
